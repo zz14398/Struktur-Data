@@ -1,16 +1,16 @@
 buah = []
 
-stack.append('Kiwi')
-stack.append('Strawberry')
-stack.append('Mangga')
+buah.append('Kiwi')
+buah.append('Strawberry')
+buah.append('Mangga')
 
 print('Daftar Buah')
 print(buah)
 
 print('\nElements popped from Daftar Buah:')
-print(stack.pop())
-print(stack.pop())
-print(stack.pop())
+print(buah.pop())
+print(buah.pop())
+print(buah.pop())
 
 print('\nDaftar Buah after elements are popped:')
-print(stack)
+print(buah)
